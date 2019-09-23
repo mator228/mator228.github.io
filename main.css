@@ -1,0 +1,129 @@
+.center-img{
+    display: block;
+    margin: 0 auto;
+}
+iframe{
+    margin-left: 150px;
+}
+.video1{
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    border: 8px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.video2{
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    border: 8px solid rgb(0, 0, 0);
+    border-radius: 30px;
+}
+.fotosemy{
+    margin-left: 500px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 30px;
+}
+figcaption{
+    text-align: center;
+    color: azure;
+    font-size: 30px;
+}
+
+.design{
+    margin-right: 40px; 
+}
+table{ 
+    width: 100%;
+    height: 100%;
+}
+
+h3{
+    text-align: center; 
+    color:azure;
+    font-size: 30px; /* Здесь менять цифры для шрифта в поздравляшках перед фотками и т.п. в блоках*/ 
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+    background-color: #000000;
+}
+.contact{
+    font-size: 30px;
+}
+body{
+
+    background-image:url(images.jpg/fon.jpg);
+    background-size: 100%;  
+    font-family: Pompadur, 'Comic Sans MS', cursive;
+    width: 100%
+    
+}
+h1{
+    color: rgb(175, 7, 250);
+}
+img{
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    border: 8px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    margin: 1.3em auto;
+    max-width: 100;
+    height: auto;
+}
+header{
+    text-align: center;
+    background: #000000;
+    min-height: 40px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.title{
+  text-align: center;
+     font-size: 40px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  animation: blur 1.5s ease-out infinite;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+  
+    
+}
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;
+  }
+}
+.right {
+    text-align: center;
+    font-size: 1.3em;
+    float:none
+}
+a{
+    color: hotpink;
+    text-decoration: none;
+    transition: all.2s ease;
+}
+a:hover{
+    color: #000000;
+    text-decoration: none;
+    transition: all.6s ease;
+}
+a:active{
+    color: aqua
+}
